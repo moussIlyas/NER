@@ -1,0 +1,13 @@
+# Ignore everything by default
+*
+
+# ...then allow only what we want to keep
+!data/
+data/*
+!data/NER.zip
+
+!simple_ner.ipynb
+!pyproject.toml
+!uv.lock
+!README.md
+!.gitignore
